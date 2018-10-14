@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+	<title>Index</title>
+	<style>
+		.mt-3{margin-top: 30px}
+		.mt-4{margin-top: 40px}
+		.mt-5{margin-top: 50px}
+
+		.mb-3{margin-bottom: 30px}
+		.mb-4{margin-bottom: 40px}
+		.mb-5{margin-bottom: 50px}
+	</style>
+</head>
+<body>
+	<div class="mt-5"></div>
+	<h1 class="ui center aligned header">Inputs</h1>
+
+	<div class="ui container center aligned mt-5">
+		<div class="ui input">
+			<input type="text" placeholder="Text" >
+		</div>
+		<br>
+		<br>
+
+		<div class="ui input focus">
+			<input type="text" placeholder="Focused Input">
+		</div>
+		<br><br>
+
+		<div class="ui left icon input loading">
+			<input type="text" placeholder="Search...">
+			<i class="search icon"></i>
+		</div>
+		<br><br>
+
+		<div class="ui icon input loading">
+			<input type="text" placeholder="Search...">
+			<i class="search icon"></i>
+		</div>
+		<br><br>
+
+		<div class="ui disabled input">
+			<input type="text" placeholder="disabled">
+		</div>
+		<br><br>
+
+		<div class="ui disabled icon input">
+			<input type="text" placeholder="disabled">
+			<i class="search icon"></i>
+		</div>
+		<br><br>
+
+		<div class="ui input">
+			<input type="text" placeholder="disabled" disabled="true">
+		</div>
+		<br><br>
+
+		<div class="ui input error">
+			<input type="text" placeholder="error input...">
+		</div>
+		<br><br>
+
+		<div class="ui icon input">
+		  <input type="text" placeholder="Search...">
+		  <i class="search icon"></i>
+		</div>
+		<br><br>
+
+		<div class="ui left icon input">
+		  <input type="text" placeholder="Search users...">
+		  <i class="users icon"></i>
+		</div>
+		<br><br>
+
+		<div class="ui icon input">
+			<input type="text" placeholder="search">
+			<i class="red circular search link icon"></i>
+		</div>
+		<br><br>
+
+		<div class="ui icon input">
+		  <input type="text" placeholder="Search...">
+		  <i class="red inverted circular search link icon"></i>
+		</div>
+		<br><br>
+
+		<div class="ui labeled input">
+			<div class="ui label">
+				https://
+			</div>
+			<input type="text" placeholder="mysite.com">
+		</div>
+		<br><br>
+
+		<div class="ui right labeled input">
+			<input type="text" placeholder="choose domain">
+			<div class="ui dropdown label">
+				<div class="text">.com</div>
+				<i class="dropdown icon"></i>
+				<div class="menu">
+					<div class="item">.com</div>
+					<div class="item">.org</div>
+					<div class="item">.net</div>
+				</div>
+			</div>
+		</div>
+		<br><br>
+
+		<div class="ui right labeled input">
+		  <input type="text" placeholder="Enter weight..">
+		  <div class="ui basic label">
+		    kg
+		  </div>
+		</div>
+		<br><br>
+
+		<div class="ui right labeled input">
+		  <label for="amount" class="ui label">$</label>
+		  <input type="text" placeholder="Amount" id="amount">
+		  <div class="ui basic label">.00</div>
+		</div>
+		<br><br>
+
+		<div class="ui right labeled left icon input">
+		  <i class="tags icon"></i>
+		  <input type="text" placeholder="Enter tags">
+		  <a class="ui tag label">
+		    Add Tag
+		  </a>
+		</div>
+		<br><br>
+
+		<div class="ui left corner labeled input">
+			<input type="text" placeholder="Search...">
+			<div class="ui left corner label">
+				<i class="asterisk icon"></i>
+			</div>
+		</div>
+		<br><br>
+
+		<div class="ui corner labeled input">
+			<input type="text" placeholder="Search...">
+			<div class="ui corner label">
+				<i class="asterisk icon"></i>
+			</div>
+		</div>
+		<br><br>
+
+		<div class="ui action input">
+			<button class="ui teal labeled icon button">
+				<i class="card icon"></i>
+				Checkout
+			</button>
+			<input type="text" value="25.0">
+		</div>
+		<br><br>
+
+		<div class="ui right action left icon input">
+		  <i class="search icon"></i>
+		  <input type="text" placeholder="Search">
+		  <div class="ui basic floating dropdown button">
+		    <div class="text">This Page</div>
+		    <i class="dropdown icon"></i>
+		    <div class="menu">
+		      <div class="item">This Organization</div>
+		      <div class="item">Entire Site</div>
+		    </div>
+		  </div>
+		</div>
+		<br><br>
+
+		<div class="ui action input">
+		  <input type="text" placeholder="Search...">
+		  <select class="ui compact selection dropdown">
+		    <option value="all">All</option>
+		    <option selected="" value="articles">Articles</option>
+		    <option value="products">Products</option>
+		  </select>
+		  <div class="ui button">Search</div>
+		</div>
+		<br><br>
+
+		<div class="ui action input">
+		  <input type="text" value="http://mywebsite.com">
+		  <button class="ui teal right labeled icon button">
+		    <i class="copy icon"></i>
+		    Copy
+		  </button>
+		</div>
+		<br><br>
+		<div class="ui action input">
+		  <input type="text" placeholder="Search...">
+		  <button class="ui icon button">
+		    <i class="search icon"></i>
+		  </button>
+		</div>
+		<br><br>
+
+		<div class="ui transparent input">
+			<input type="text" placeholder="Search...">
+		</div>
+		<br><br>
+
+		<div class="ui transparent icon input">
+			<input type="text" placeholder="Search...">
+			<button class="ui icon button"><i class="icon search"></i></button>
+		</div>
+		<br><br>
+
+		<div class="ui transparent left icon input">
+		  <input type="text" placeholder="Search...">
+		  <i class="search icon"></i>
+		</div>
+		<br><br>
+
+		<div class="ui inverted segment">
+		  <div class="ui inverted input">
+		    <input type="text" placeholder="Search...">
+		  </div>
+		  <div class="ui inverted divider"></div>
+		  <div class="ui inverted left icon input">
+		    <input type="text" placeholder="Search...">
+		    <i class="search icon"></i>
+		  </div>
+		  <div class="ui inverted divider"></div>
+		  <div class="ui inverted transparent icon input">
+		    <input type="text" placeholder="Search...">
+		    <i class="search icon"></i>
+		  </div>
+		</div>
+		<br><br>
+
+		<div class="ui fluid icon input">
+		  <input type="text" placeholder="Search a very wide input...">
+		  <i class="search icon"></i>
+		</div>
+		<br>
+		<div class="ui fluid action input">
+		  <input type="text" placeholder="Search...">
+		  <div class="ui button">Search</div>
+		</div>
+		<br><br>
+		
+		<div class="ui mini icon focus input"><input type="text" placeholder="Search...mini"><i class="search icon"></i></div>
+		<br>
+		<br>
+		<div class="ui small icon focus input"><input type="text" placeholder="Search...small"><i class="search icon"></i></div>
+		<br>
+		<br>
+		<div class="ui large icon focus input"><input type="text" placeholder="Search...large"><i class="search icon"></i></div>
+		<br>
+		<br>
+		<div class="ui big icon focus input"><input type="text" placeholder="Search...big"><i class="search icon"></i></div>
+		<br>
+		<br>
+		<div class="ui huge icon focus input"><input type="text" placeholder="Search...huge"><i class="search icon"></i></div>
+		<br>
+		<br>
+		<div class="ui massive icon focus input"><input type="text" placeholder="Search...massive"><i class="search icon"></i></div>
+		<br>
+		<br>
+		<div class="ui huge icon focus input"><input type="text" placeholder="Search...huge"><i class="search icon"></i></div>
+		<br>
+		<br>
+		<div class="ui big icon focus input"><input type="text" placeholder="Search...big"><i class="search icon"></i></div>
+		<br><br>
+		<div class="ui large icon focus input"><input type="text" placeholder="Search...large"><i class="search icon"></i></div>
+		<br><br>
+		<div class="ui small icon focus input"><input type="text" placeholder="Search...small"><i class="search icon"></i></div>
+		<br><br>
+		<div class="ui mini icon focus input"><input type="text" placeholder="Search...mini"><i class="search icon"></i></div>
+	</div>
+
+	<div style="margin-bottom: 155px;color: white">1</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+	<script>
+		$('.ui.dropdown').dropdown();
+	</script>
+</body>
+</html>
